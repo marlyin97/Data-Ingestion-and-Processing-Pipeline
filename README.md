@@ -6,10 +6,12 @@ This repository contains a shell script designed to automate the process of inge
 
 Script Description
 Script Name: sfm_insuredata.sh
-Purpose
+Purpose:
+
 The primary purpose of this script is to ingest insurance-related data from a cloud storage location, validate the data, cleanse it, and finally move it to a Hadoop Distributed File System (HDFS) Data Lake. The script also handles error logging, archiving of processed data, and creation of indicator files for downstream data consumers.
 
 Key Features
+
 Data Ingestion: Automates the download of data from cloud storage to a local file system (LFS) and stages it for further processing.
 Validation: Validates the data against a predefined schema or expected format. If the data does not meet the validation criteria, it is moved to a rejection folder.
 Cleansing: Removes unnecessary trailer information from the data, ensuring that only the required data is processed.
