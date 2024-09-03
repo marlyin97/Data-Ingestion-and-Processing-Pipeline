@@ -1,6 +1,7 @@
 # Data-Ingestion-and-Processing-Pipeline
 
-Overview
+Overview:
+
 This repository contains a shell script designed to automate the process of ingesting, validating, and processing data from cloud storage (such as AWS S3) into a Hadoop Data Lake. The script is particularly useful for managing large datasets, ensuring data integrity, and automating the transfer and archiving of data.
 
 Script Description
